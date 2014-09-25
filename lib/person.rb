@@ -18,7 +18,6 @@ class Person
 
 	def put_in_bag(thing, bag)
 		@things.delete(thing)
-		bag = bag
 		bag.add(thing)
 	end
 
